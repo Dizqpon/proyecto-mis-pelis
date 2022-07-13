@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/componentes.css">
+    <title>Proyecto Final</title>
+</head>
+<body>
+    <div class="layout">
+        <!--Esta va a ser nuestra cabecera-->
+        <header class="header">
+            <div class="logo">
+                <div class="play">
+                    
+                </div>
+            </div>
+            <h1>Mis pelis</h1>
+        </header>
+        <!--Esta es la barra de navegación-->
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Películas</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <!--Esta es la sección principal-->
+        <section id="contenido" class="contenido">
+            <!--Aquí van nuestras películas-->
+            
+        </section>
+        <!--Esta es nuestra barra lateral-->
+        <aside class="lateral">
+            <div class="search">
+                <h3 class="title">Buscador</h3>
+                <form action="">
+                    <input type="text" id="buscarInput">
+                    <button class="buscar" id="buscar">Buscar</button>
+                </form>
+            </div>
+            <div class="add">
+                <h3 class="title">Añadir Película</h3>
+                <form action="">
+                    <input id="tituloAdd" type="text" placeholder="Titulo">
+                    <textarea name="description" id="description" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    <input class="guardar" id='guardar' type="submit" value="Guardar" />
+                </form>
+            </div>
+        </aside>
+        <!--Pié de página-->
+        <footer class="footer">
+            &copy; Master en JavaScript E12 - <a href="#">Nuestro sitio WEB</a>
+        </footer>
+    </div>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
